@@ -1,0 +1,10 @@
+package training.aula12;
+
+public class LeituraDadosTela {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

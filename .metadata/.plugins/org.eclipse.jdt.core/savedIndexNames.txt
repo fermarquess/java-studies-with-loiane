@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/fernandam/Documentos/java-studies-with-loiane/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+438742662.index
+2850775753.index
