@@ -2,13 +2,13 @@ package training.exercicios.aula19;
 
 import java.util.Scanner;
 
-public class Exer11 {
+public class Exer13 {
 
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
 
-        int[] vetorA = new int[4];
+        int[] vetorA = new int[10];
 
         for (int i = 0; i < vetorA.length; i++){
 
@@ -18,13 +18,22 @@ public class Exer11 {
 
         }
 
-        System.out.println("Imprimindo os valores pares do vetorA ");
-
+        int soma = 0;
         for (int i = 0; i < vetorA.length; i++){
 
-            if (vetorA[i] % 2 == 0){
-                System.out.print(vetorA[i] + "  ");
+            if (vetorA[i] % 5 == 0){
+                soma += vetorA[i];
+
             }
         }
+
+        System.out.print("Vetor A: ");
+        for (int i = 0; i < vetorA.length; i++){
+            System.out.print(vetorA[i] + " ");
+        }
+        System.out.println();
+        System.out.print("Soma: " + soma);
+
     }
+
 }
