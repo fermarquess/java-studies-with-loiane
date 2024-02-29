@@ -19,10 +19,10 @@ public class Exer20 {
         for (int i = 0; i < vetorA.length; i++){
 
             vetorA[i] = cotacao * (i+1);
-
         }
 
         System.out.print("Vetor A = ");
+
         for (int i = 0; i < vetorA.length; i++){
 
             System.out.println(vetorA[i] + " ");
